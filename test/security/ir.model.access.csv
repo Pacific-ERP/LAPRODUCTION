@@ -1,2 +1,7 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-test.access_test,access_test,test.model_test,base.group_user,1,1,1,1
+test.access_test,access_test,test.model_test,base.group_user,1,0,0,0
+web_cohort.access_test,access_test,web_cohort.model_test,base.group_user,1,0,0,0
+base_import.access_test,access_test,base_import.model_test,base.group_user,1,0,0,0
+web_gantt.access_test,access_test,web_gantt.model_test,base.group_user,1,0,0,0
+web_grid.access_test,access_test,web_grid.model_test,base.group_user,1,0,0,0
+
